@@ -51,7 +51,7 @@ export default function Home() {
     formData.append("file", selectedFile);
 
     const response = await fetch(
-      "http://127.0.0.1:8000/upload",
+      https://automatic-qc-platform-production-a1db.up.railway.app/upload,
       {
         method: "POST",
         body: formData,
@@ -172,7 +172,7 @@ export default function Home() {
           <div className="mt-8">
 
             <a
-              href="http://127.0.0.1:8000/download-report"
+              href="https://automatic-qc-platform-production-a1db.up.railway.app/download-report"
               target="_blank"
               className="bg-green-600 text-white px-6 py-3 rounded-xl hover:bg-green-700"
             >
